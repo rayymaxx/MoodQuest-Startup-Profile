@@ -5,24 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MoodQuest</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <script src="https://js.puter.com/v2/"></script>
 
     <link rel="stylesheet" href="styles/AI-Assistant.css">
+    <link rel="stylesheet" href="styles/general.css">
+
 </head>
 <body>
-    <section id="chatbot-section">
+    <section class="chatbot-section">
         <header>
             <h2>Meet MoodQuest-AI</h2>
             <p>Level Up Your Mental Health - One Quest At A Time</p>
         </header>
+
+        <!--This is the chatbox section-->
         <div class="chat-box">
+            <p>
+                Ask MoodQuest AI about our services, origin and how to get in touch.
+            </p>
+
+            <!--Messages display here-->
             <div class="chat-messages">
-                <div class="chat-bubble ai bubble">
+                <div class="chat-bubble ai-bubble">
                     Hello! I'm the MoodQuest AI assistant, have anything on your mind regarding MoodQuest?
                 </div>
             </div>
+
+            <!--examples of questions-->
             <div class="questions-holder">
-                <p>Here are some questions you could try:</p>
+                <p>
+                    Here are some questions you could try:
+                </p>
                 <div class="question-examples">
                     <button> Who founded the startup?</button>
                     <button>What kind of services are offered?</button>

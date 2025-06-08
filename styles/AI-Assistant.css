@@ -1,0 +1,116 @@
+.chatbot-section {
+    background-color: #011638;
+    border: none;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.chatbot-section header{
+    padding: 5px;
+    text-align: left;
+    border-bottom: 2px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.chatbot-section header h2 {
+    font-family: "Aclonica";
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.chatbot-section header p {
+    color: white;
+    font-family: "Nunito Sans";
+    font-size: larger;
+    margin-left: 30px;
+}
+
+.chat-box {
+    border-radius: 20px;
+    background-color: #98FBCB;
+    border: 2px solid #011638;
+}
+
+.chat-box p{
+    color: black;
+    text-align: center;
+    font-family: "Nunito Sans";
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.chat-messages {
+    height: 350px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+    overflow-y: auto;
+    border: #011638 1px solid;
+    gap: 10px;
+}
+
+.chat-bubble {
+    max-width: 80%;
+    padding: 12px 15px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    word-wrap: break-word;
+}
+
+.user-bubble {
+    background-color: rgb(11, 124, 216);
+    color: white;
+    align-self: flex-end;
+    border-bottom-right-radius: 2px;
+}
+
+.ai-bubble {
+    background-color: #9fcdd8;
+    color: #011638;
+    align-self: flex-start;
+    border-bottom-left-radius: 2px;
+}
+
+.questions-holder {
+    margin: 10px 10px;
+}
+
+.questions-holder p {
+    font-family: "Nunito Sans";
+    font-size: medium;
+}
+
+.question-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.question-examples button {
+    background-color: rgb(197, 197, 197);
+    color: rgb(51, 51, 51);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s
+        color 0.5s;
+}
+
+.question-examples button:hover {
+    background-color: rgb(161, 161, 161);
+    color: black;
+}
