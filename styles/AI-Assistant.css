@@ -45,7 +45,7 @@
     font-weight: 500;
 }
 
-.chat-messages {
+#chat-messages {
     height: 350px;
     padding: 10px;
     background-color: lightgray;
@@ -71,6 +71,7 @@
     color: white;
     align-self: flex-end;
     border-bottom-right-radius: 2px;
+    font-family: "Nunito Sans";
 }
 
 .ai-bubble {
@@ -78,6 +79,7 @@
     color: #011638;
     align-self: flex-start;
     border-bottom-left-radius: 2px;
+    font-family: "Nunito Sans";
 }
 
 .questions-holder {
@@ -89,13 +91,13 @@
     font-size: medium;
 }
 
-.question-examples {
+#question-examples {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.question-examples button {
+#question-examples button {
     background-color: rgb(197, 197, 197);
     color: rgb(51, 51, 51);
     padding-top: 6px;
@@ -110,7 +112,63 @@
         color 0.5s;
 }
 
-.question-examples button:hover {
+#question-examples button:hover {
     background-color: rgb(161, 161, 161);
     color: black;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+}
+
+#chat-input {
+    display: flex;
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #505050;
+    border-radius: 10px;
+    outline: none;
+    margin: 15px;
+    font-size: 15px;
+}
+
+#chat-input:focus {
+    box-shadow: 0 0 0 1px #2d39eb;
+}
+
+#send-button {
+    background-color: #011638;
+    color: white;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: large;
+    border-radius: 10px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    margin: 0px 15px 0px 0px;
+    transition: background-color 150ms ease-in-out;
+    outline: none;
+}
+
+#send-button:hover {
+    background-color: #022661;
+}
+
+#send-button:focus {
+    box-shadow: 0 0 0 1px #022661;
+    outline: none;
+    position: relative;
+}
+
+
+#send-button:disabled {
+    background-color: #022661;
+    cursor: not-allowed;
+}
+
+#error-message {
+    color: red;
+    margin-top: 2px;
 }
