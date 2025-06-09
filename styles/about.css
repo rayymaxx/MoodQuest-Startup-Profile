@@ -1,0 +1,38 @@
+#about-section {
+    height: 800px;
+    min-height: 100vh;
+    background-color: #78E0DC;
+    font-family: "Aclonica", sans-serif;
+}
+
+.horizontal-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Nunito sans", sans-serif;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.horizontal-holder img {
+    width: 35%;
+    max-width: 600px;
+    min-width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.horizontal-holder p {
+    width: 55%;
+}
+
+#about-section p {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
