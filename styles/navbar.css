@@ -3,7 +3,7 @@ nav {
   height: 30px;
   display: flex;
   border-radius: 50px;
-  border: solid black 2px;
+  border: solid rgb(43, 43, 43) 2px;
   justify-content: space-between;
   padding: 8px 20px;
   align-items: center;
@@ -48,7 +48,12 @@ nav ul {
 }
 
 .logo {
-  margin-left: 40px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .logo a {
@@ -58,4 +63,26 @@ nav ul {
   font-size: 20px;
   text-decoration: none;
   color: white;
+}
+
+.logo img {
+  width: 43px;
+  border-radius: 50%;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav-buttons button{
+    background-color: rgb(122, 122, 122);
+    padding: 9px 20px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: "nunito Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
 }
