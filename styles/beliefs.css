@@ -1,0 +1,21 @@
+.beliefs-section {
+    background-color: #011638;
+    color: white;
+}
+
+.beliefs {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.belief {
+    background-color: #98FBCB;
+    color: black;
+    margin: 30px 150px;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+}

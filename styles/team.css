@@ -1,0 +1,67 @@
+.team-section {
+    background-color: #78E0DC;
+    color: black;
+}
+
+.column-1,
+.column-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin: 50px;
+}
+
+.boaz-pic {
+    background-image: url(../assets/Boaz-\ Pic.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.ray-pic {
+    background-image: url(../assets/Ray-Pic.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.edmond-pic {
+    background-image: url(../assets/Edmond\ Pic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.john-pic {
+    background-image: url(../assets/John-Pic.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+
+.edmond,
+.raymond,
+.boaz,
+.john {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+    width: 700;
+    overflow: hidden;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
