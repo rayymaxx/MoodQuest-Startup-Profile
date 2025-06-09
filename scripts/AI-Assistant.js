@@ -59,9 +59,9 @@ const startupContext = `You are a smart and knowledged AI assistant for a startu
     /**
      * Adds a streaming message bubble that can be updated in real time
      */
-    const addstreamingMessage = () => {
+    const addStreamingMessage = () => {
         const bubble = document.createElement('div');
-        bubble.className = 'chat-bubble ai-bubble streaming text';
+        bubble.className = 'chat-bubble ai-bubble streaming-text';
         bubble.id = 'streaming-bubble';
         chatMessages.appendChild(bubble);
         chatMessages.scrollTop = chatMessages.scrollHeight;
