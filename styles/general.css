@@ -13,4 +13,12 @@ h2 {
     margin-top: 40px;
     margin-left: 50px;
     margin-bottom: 20px;
+    font-family: "Aclonica", sans-serif;
+}
+
+h3 {
+    font-size: clamp(15px, 30px, 50px);
+    font-family: "Aclonica", sans-serif;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
