@@ -5,9 +5,7 @@
 
 .carousel-holder {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     padding: 60px;
 }
@@ -20,12 +18,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    border-radius: 16px;
 }
 
 .card-1 img,
 .card-2 img,
 .card-3 img {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 20px;
 }
 
@@ -33,4 +34,6 @@
 .card-2 p,
 .card-3 p {
     font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    margin-top: 10px;
 }
