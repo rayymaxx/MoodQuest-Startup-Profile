@@ -1,0 +1,27 @@
+#testimonials-section {
+    height: 100vh;
+    background-color: #78E0DC;
+    color: black;
+}
+
+.testimony-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 40px;
+    padding: 50px;
+    margin-top: 60px;
+}
+
+.testimony-1,
+.testimony-2 {
+    background-color: #98FBCB;
+    border-radius: 10px;
+    padding: 50px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+}
+
+.testimony-1 p,
+.testimony-2 p {
+    margin: 6px;
+}
