@@ -183,7 +183,4 @@ const startupContext = `You are a smart and knowledged AI assistant for a startu
         }
     });
 
-    //focuses the input on loading of the page 
-    chatInput.focus();
-
 });

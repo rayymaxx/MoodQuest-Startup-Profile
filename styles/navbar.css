@@ -77,12 +77,19 @@ nav ul {
 }
 
 .nav-buttons button{
-    background-color: rgb(122, 122, 122);
+    background-color: white;
     padding: 9px 20px;
     border: none;
     border-radius: 50px;
-    color: white;
+    color: black;
     font-family: "nunito Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
+    transition: background-color 1s ease-in-out
+      color 1s;
+}
+
+.nav-buttons button:hover {
+  background-color: rgba(65, 127, 207, 0.925);
+  color: white;
 }
