@@ -34,6 +34,7 @@
     min-width: 300px;
     height: auto;
     border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 .horizontal-holder-2 img {
@@ -44,10 +45,8 @@
     max-height: 600px;
     min-height: 300px;
     border-radius: 20px;
-}
-
-.horizontal-holder p {
-    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 #about-section p {
@@ -55,4 +54,25 @@
     margin-left: 50px;
     margin-right: 50px;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .horizontal-holder,
+  .horizontal-holder-2 {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .horizontal-holder p,
+  .horizontal-holder-2 p {
+    margin: 20px 0;
+  }
+
+  .horizontal-holder img,
+  .horizontal-holder-2 img {
+    max-width: 100%;
+    height: auto;
+  }
 }

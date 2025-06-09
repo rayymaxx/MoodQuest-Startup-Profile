@@ -64,3 +64,15 @@
 .button-group button:hover {
   background-color: #022b70;
 }
+
+@media (max-width: 600px) {
+  .input-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .input-group label,
+  .input-group input {
+    width: 100%;
+  }
+}

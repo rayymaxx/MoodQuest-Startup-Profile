@@ -1,5 +1,4 @@
 #testimonials-section {
-    height: 100vh;
     background-color: #78E0DC;
     color: black;
 }
@@ -10,6 +9,7 @@
     gap: 40px;
     padding: 50px;
     margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 .testimony-1,
@@ -19,9 +19,24 @@
     padding: 50px;
     font-family: "Nunito Sans", sans-serif;
     font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .testimony-1 p,
 .testimony-2 p {
     margin: 6px;
+}
+
+@media (max-width: 768px) {
+  .testimony-holder {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .testimony-1,
+  .testimony-2 {
+    padding: 30px;
+    font-size: 16px;
+  }
 }

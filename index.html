@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/products.css">
     <link rel="stylesheet" href="styles/testimonials.css">
     <link rel="stylesheet" href="styles/beliefs.css">
+    <link rel="stylesheet" href="styles/faq.css">
     <link rel="stylesheet" href="styles/team.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/footer.css">
@@ -81,48 +82,56 @@
 
     <section id="product-section">
         <h2>Our Products</h2>
-        <div class="carousel-holder">
-            <div class="card-1">
-                <h3>Story Quests</h3>
-                <p>"Turn emotions into adventures"</p>
-                <img src="assets/quest scroll with stars and a glowing heart.jpg" alt="quest scroll with stars and a glowing heart">
-                <br>
-                <p>Teens complete short, interactive quests like “Face the Dragon of Doubt,” building emotional awareness and confidence in a playful, non-threatening way</p>
-                <br>
-                <p style="font-weight: 600;">Tool/Method Used:</p>
-                <p>Cognitive Behavioral Therapy (CBT) + Narrative Design.</p>
-                <br>
-                <p style="font-weight: 600;">Key Feature</p>
-                <p>CBT-powered decision-making quests.</p>
-            </div>
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="carousel-card card-1" id="card-1">
+                    <h3>Story Quests</h3>
+                    <p>"Turn emotions into adventures"</p>
+                    <img src="assets/quest scroll with stars and a glowing heart.jpg" alt="quest scroll with stars and a glowing heart">
+                    <br>
+                    <p>Teens complete short, interactive quests like “Face the Dragon of Doubt,” building emotional awareness and confidence in a playful, non-threatening way</p>
+                    <br>
+                    <p style="font-weight: 600;">Tool/Method Used:</p>
+                    <p>Cognitive Behavioral Therapy (CBT) + Narrative Design.</p>
+                    <br>
+                    <p style="font-weight: 600;">Key Feature</p>
+                    <p>CBT-powered decision-making quests.</p>
+                </div>
 
-            <div class="card-2">
-                <h3>Mood Mapping</h3>
-                <p>“Track How You Feel - Visually”</p>
-                <img src="assets/Emoji face selector on a mood spectrum or color palette.jpg" alt="Emoji face selector on a mood spectrum or color palette">
-                <br>
-                <p>Helps users identify emotional patterns over time using color, visuals, and journaling — no walls of text, just honest self-reflection.</p>
-                <br>
-                <p style="font-weight: 600;">Tool/Method Used:</p>
-                <p>Emoji sliders, color-coded mood entries, and avatar expressions.</p>
-                <br>
-                <p style="font-weight: 600;">Key Feature</p>
-                <p>Visual mood journaling.</p>
-            </div>
+                <div class="carousel-card card-2" id="card-2">
+                    <h3>Mood Mapping</h3>
+                    <p>“Track How You Feel - Visually”</p>
+                    <img src="assets/Emoji face selector on a mood spectrum or color palette.jpg" alt="Emoji face selector on a mood spectrum or color palette">
+                    <br>
+                    <p>Helps users identify emotional patterns over time using color, visuals, and journaling — no walls of text, just honest self-reflection.</p>
+                    <br>
+                    <p style="font-weight: 600;">Tool/Method Used:</p>
+                    <p>Emoji sliders, color-coded mood entries, and avatar expressions.</p>
+                    <br>
+                    <p style="font-weight: 600;">Key Feature</p>
+                    <p>Visual mood journaling.</p>
+                </div>
 
-            <div class="card-3">
-                <h3>Mini Games</h3>
-                <p>“Build Habits Through Play”</p>
-                <img src="assets/Calendar streak badge + mini-game popups.jpg" alt="Calendar streak badge + mini-game popups">
-                <br>
-                <p>Teens stay engaged through daily mood check-ins and playful skill challenges that encourage consistency without pressure.</p>
-                <br>
-                <p style="font-weight: 600;">Tool/Method Used:</p>
-                <p>Habit-forming design + positive reinforcement psychology.</p>
-                <br>
-                <p style="font-weight: 600;">Key Feature</p>
-                <p>Gamified progress system.</p>
+                <div class="carousel-card card-3" id="card-3">
+                    <h3>Mini Games</h3>
+                    <p>“Build Habits Through Play”</p>
+                    <img src="assets/Calendar streak badge + mini-game popups.jpg" alt="Calendar streak badge + mini-game popups">
+                    <br>
+                    <p>Teens stay engaged through daily mood check-ins and playful skill challenges that encourage consistency without pressure.</p>
+                    <br>
+                    <p style="font-weight: 600;">Tool/Method Used:</p>
+                    <p>Habit-forming design + positive reinforcement psychology.</p>
+                    <br>
+                    <p style="font-weight: 600;">Key Feature</p>
+                    <p>Gamified progress system.</p>
+                </div>
             </div>
+        </div>
+
+        <div class="carousel-nav">
+            <input type="radio" name="carousel" id="nav-1" onclick="document.getElementById('card-1').scrollIntoView({ behavior: 'smooth', inline: 'start' })">
+            <input type="radio" name="carousel" id="nav-2" onclick="document.getElementById('card-2').scrollIntoView({ behavior: 'smooth', inline: 'start' })">
+            <input type="radio" name="carousel" id="nav-3" onclick="document.getElementById('card-3').scrollIntoView({ behavior: 'smooth', inline: 'start' })">
         </div>
     </section>
 
@@ -160,6 +169,32 @@
                 <p>🛡️ Safe</p>
                 <p>Every quest is a judgment-free zone, built with privacy and care.</p>
             </div>
+        </div>
+    </section>
+
+    <section id="faq-section">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question">What is MoodQuest?</button>
+            <div class="faq-answer">
+              <p>MoodQuest is your AI-powered mental health buddy that takes care of all your mental health needs!</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">Is it free to use?</button>
+            <div class="faq-answer">
+              <p>Yes! We offer a free Basic plan with optional upgrades to Pro for advanced features.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">Can I trust this?</button>
+            <div class="faq-answer">
+              <p>Absolutely! Our results are amazing, we employ CBT to make the sessions worth while and of a learning experience.</p>
+            </div>
+          </div>
         </div>
     </section>
 
@@ -296,6 +331,8 @@
     </footer>
 
     <script src="scripts/navbar.js"></script>
+    <script src="scripts/faq.js"></script>
+    <script src="scripts/carousel.js"></script>
     <script src="scripts/AI-Assistant.js"></script>
 </body>
 </html>
