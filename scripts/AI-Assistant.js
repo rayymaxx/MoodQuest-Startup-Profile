@@ -20,6 +20,7 @@ const startupContext = `You are a smart and knowledged AI assistant for a startu
     **Startup Story and founder:**
     MoodQuest was founded by Raymond Odhiambo and Edmond Oketch. MoodQuest was born from a simple but urgent truth: today's teens are struggling, and traditional mental health support is not reaching them. The founder, Edmond, a school psychologist with over a decade of experience, saw brilliant, creative, and sensitive kids quietly battling anxiety, stress, and self-doubt — often without the tools or language to ask for help.
     One afternoon, after a student said, “I wish therapy was more like a game,” the spark was lit. MoodQuest began as a passion project: a way to blend the emotional depth of therapy with the magic of storytelling and the motivation of gameplay.
+    They teamed with Boaz Marube, an exceptional full stack web developer and John Kiumu, a UI/UX designer. Raymond Odhiambo being a passionate Generative AI developer was in charge of the AI generation.
 
     **Mission and Problem Solved**
     MoodQuest's mission is to empower teens and tweens to build emotional resilience by transforming self-care into a playful, quest-driven adventure — making mental wellness engaging, relatable, and accessible to everyone.
