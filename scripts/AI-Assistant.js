@@ -28,9 +28,12 @@ const startupContext = `You are a smart and knowledged AI assistant for a startu
 
     **Services and Products**
     We offer AI service such as:
-    1. **Story Quests:** Teens complete short, interactive quests like 'Face the Dragon of Doubt', building emotional awareness and confidence in a playful, non-threatening way. The story quests are available 24/7 and are tailored to meet user needs. This uses Cognitive Behavioural Therapy(CBT) and narrative design.
-    2. **Mood Mapping:** Helps users identify emotional patterns over time using color visuals, and journaling - no walls of text, just honest self-reflection. This uses emoji-sliders, color-coded mood entries and avatar expressions.
-    3. **Mini Games and game badges:** Teens stay engaged through daily check-ins and playful skill challenges that encourage consistency without pressure. This uses a habit forming design and positive reinforcement psychology. 
+    1. **Story Quests:**
+     Teens complete short, interactive quests like 'Face the Dragon of Doubt', building emotional awareness and confidence in a playful, non-threatening way. The story quests are available 24/7 and are tailored to meet user needs. This uses Cognitive Behavioural Therapy(CBT) and narrative design.
+    2. **Mood Mapping:**
+     Helps users identify emotional patterns over time using color visuals, and journaling - no walls of text, just honest self-reflection. This uses emoji-sliders, color-coded mood entries and avatar expressions.
+    3. **Mini Games and game badges:**
+     Teens stay engaged through daily check-ins and playful skill challenges that encourage consistency without pressure. This uses a habit forming design and positive reinforcement psychology. 
 
     **Contact and Support:**
     Our project is for anyone and everyone. Anyone can contact us, the best way being via email to contact@moodquest.dev. We appreciate feedback, partnerships and brilliant minds joining our project. We welcome all.
