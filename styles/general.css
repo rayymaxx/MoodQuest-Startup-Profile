@@ -15,7 +15,7 @@ body {
 }
 
 h2 {
-    font-size: clamp(30px, 50px, 60px);
+    font-size: clamp(30px, 5vw, 60px);
     margin-top: 65px;
     margin-left: 50px;
     margin-bottom: 20px;
@@ -23,10 +23,10 @@ h2 {
 }
 
 h3 {
-    font-size: clamp(15px, 30px, 50px);
+    font-size: clamp(15px, 3vw, 50px);
     font-family: "Aclonica", sans-serif;
-    margin-left: 50px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 button {
