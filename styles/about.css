@@ -53,7 +53,7 @@
     font-family: 'Nunito Sans', sans-serif;
     margin-left: 50px;
     margin-right: 50px;
-    font-size: clamp(15px, 3vw, 30px);
+    font-size: clamp(15px, 1.5vw, 30px);
 }
 
 @media (max-width: 768px) {

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MoodQuest</title>
 
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -49,8 +51,8 @@
                 </ul>
             </div>
             <div class="nav-buttons">
-                <button>Join The Quest</button>
-                <button>Continue The Quest</button>
+                <button onclick="buttonAlert()">Join The Quest</button>
+                <button onclick="buttonAlert()">Continue The Quest</button>
             </div>
         </nav>
     </header>
@@ -60,8 +62,8 @@
             <div class="first-text">Level Up Your Mental Health — One Quest At A Time</div>
             <div class="second-text">“Build emotional strength through stories, self-care, and quests — because growing up shouldn't feel like a battle you face alone.”</div>
             <div class="hero-buttons">
-                <button class="try">Try Now</button>
-                <button class="demo">See Demo</button>
+                <button class="try" onclick="buttonAlert()">Try Now</button>
+                <button class="demo" onclick="buttonAlert()">See Demo</button>
             </div>
         </div>
         
@@ -299,7 +301,7 @@
                 <img src="assets/Wellness App Logo - Moodquest in Pixel Art.png" alt="MoodQuest Logo" class="footer-logo">
             </div>
             <div class="footer-message">
-            🧙‍♂️ MoodQuest has welcomed <strong id="visitor-count">0</strong> adventurers so far.
+                🧙‍♂️ MoodQuest has welcomed <strong id="visitor-count">0</strong> adventurers so far.
             </div>
             <div class="footer-socials">
                 <a href="https://www.facebook.com/" target="_blank"><img src="assets/facebook.png" alt="facebook logo"></a>
@@ -333,5 +335,7 @@
     <script src="scripts/AI-Assistant.js"></script>
     <script src="scripts/contact.js"></script>
     <script src="scripts/footer.js"></script>
+
+    <script src="scripts/general.js"></script>
 </body>
 </html>
