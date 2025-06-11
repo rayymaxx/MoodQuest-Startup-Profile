@@ -37,4 +37,7 @@ Empower young people to take charge of their emotional wellness — through ques
 - **AI Integration**: [Puter.js](https://puter.com) (for in-browser GPT-4o chatbot)  
 - **Design**: Responsive, mobile-friendly, accessible UI
 
+Here is the link to my figma design:
+https://www.figma.com/proto/2d81sPW00oFxYNHS5RaDV0/Raymond-Odhiambo-s-team-library?page-id=3311%3A2&team_id=1506555592193182526&node-id=3313-2&t=7DcmJg1IeGkewa9U-1
+
 
