@@ -1,59 +1,57 @@
-#faq-section {
-  max-width: 800px;
-  margin: 4rem auto;
-  padding: 0 1rem;
-  font-family: 'Nunito Sans', sans-serif;
-  background-color: #090a44;
+.faq-section {
+  margin: 50px auto;
+  background: #011638b9;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  color: #ddd;
 }
 
-.faq-title {
+.faq-section h2 {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: white;
-}
-
-.faq-container {
-  border-top: 2px solid #1f0566;
+  margin-bottom: 1.5rem;
 }
 
 .faq-item {
-  border-bottom: 1px solid #2a0b97b0;
+  border-bottom: 1px solid #605d5d;
+  margin: auto 70px;
+  padding: 1rem 0;
 }
 
 .faq-question {
-  width: 100%;
-  padding: 1rem;
-  font-size: 1.2rem;
-  text-align: left;
   background: none;
   border: none;
-  outline: none;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.5rem 0;
   cursor: pointer;
   position: relative;
-  color: white;
-  transition: background-color 0.3s ease
-    color 0.3s ease;
+  color: #ddd;
+  border-radius: 10px;
 }
 
-.faq-question:hover {
-  background-color: #f9f9f9;
-  color: black;
+.faq-question::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  font-size: 1.5rem;
+}
+
+.faq-question.active::after {
+  content: '-';
 }
 
 .faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.4s ease, padding 0.3s ease;
-  padding: 0 1rem;
-  color: white;
-  background-color: #2a0b97b0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
 }
 
-.faq-answer p {
-  margin: 1rem 0;
-}
-.faq-item.active .faq-answer {
+.faq-answer.open {
   max-height: 200px;
-  padding: 1rem;
+  opacity: 1;
+  margin-top: 0.5rem;
 }
