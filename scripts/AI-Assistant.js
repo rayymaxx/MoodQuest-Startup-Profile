@@ -49,8 +49,6 @@ const startupContext = `You are a smart and knowledged AI assistant for a startu
 
     /**
      * Appends a message to the chat display
-     * @param {string} message - The text of the message.
-     * @param {('user' | 'ai')} sender - Who sent the message.
      */
     const addMessageToUI = (message, sender) => {
         const bubble = document.createElement('div');
@@ -74,7 +72,6 @@ const startupContext = `You are a smart and knowledged AI assistant for a startu
 
     /**
      * Shows or hides the typing indicator
-     * @param {boolean} show - Whether to show the indicator
      */
     const showTypingIndicator = (show) => {
         let indicator = document.getElementById('typing-indicator');
